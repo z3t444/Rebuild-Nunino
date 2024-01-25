@@ -6,6 +6,7 @@ import Line from "./icons/Line.jsx";
 import Line2 from "./icons/Line2.jsx";
 import CircleGreen from "./icons/GreenCircle.jsx";
 import SmallCircle from "./icons/SmallCircle.jsx";
+import Infinity from "./icons/infinity.jsx";
 // CSS
 import "./style/Hero.css";
 
@@ -47,10 +48,27 @@ function Hero() {
               <CircleGreen></CircleGreen>
             </div>
           </div>
-          <div className="smallCircle-blue-white mt-2 -ml-3">
+          <div className="smallCircle-blue-white mt-2 -ml-4">
             <SmallCircle></SmallCircle>
           </div>
         </div>
+      </div>
+      {/* line 3 */}
+      <div className="line-3 flex items-center justify-center">
+        <div class="w-28 gradient-purle-pink-circle h-28 bg-gradient-to-l from-[#7955f2] to-[#dd7c9c] flex items-center justify-center rounded-full"></div>
+        <div className="glashmorpishm-2-circle-z-index-1 py-2 flex items-center px-1 -ml-24 justify-start">
+          <div className="ClassName p-4 px-5 flex items-center bg-white rounded-full">
+            <Infinity></Infinity>
+          </div>
+        </div>
+        <div class="w-28 gradient-purle-pink-circle h-28 -ml-24 bg-[#91cbff] border-1 shadow-md flex items-center justify-center rounded-full"></div>
+        <div>
+          <h3 className="text-8xl font-bold ml-2 tracking-tight">together</h3>
+        </div>
+      </div>
+
+      <div className="description-and-button mt-14">
+        <p className="xl:w-1/3 mx-auto text-center font-medium leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore blanditiis corrupti veniam quibusdam non. Assumenda? 🙌</p>
       </div>
     </>
   );

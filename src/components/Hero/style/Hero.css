@@ -44,7 +44,6 @@
   }
 
 
-
   /* glashmorpishm */
   .glashmorpishm {
     background: rgba(255, 255, 255, 0.1);
@@ -54,3 +53,15 @@
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
+
+  .glashmorpishm-2-circle-z-index-1 {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 60px;
+    padding: 30px;
+    width: 120px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  
