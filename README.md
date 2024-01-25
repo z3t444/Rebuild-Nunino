@@ -1,8 +1,9 @@
 # React + Vite
 
-This is the Repository Rebuild that I took Design from Pinterest (Nunino).
-We are aiming to rebuild the design of Pinterest, just to gain more experience in the Frontend World. we are very happy if you all participate in this project.
-
+ <div align="center">
+      <p>This is the Repository Rebuild that I took Design from Pinterest (Nunino).</p>
+      <p>We are aiming to rebuild the design of Pinterest, just to gain more experience in the Frontend World. we are very happy if you all participate in this project.</p>
+    </div>
 
 
 <h3 align="center">Connect with Me 📍</h3>
