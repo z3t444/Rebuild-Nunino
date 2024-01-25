@@ -30,8 +30,8 @@ function Hero() {
         <div className="toggleClick">
           <ToggleButton></ToggleButton>
         </div>
-        <div className="emoji-svg p-2 ml-2 rounded-full shadow-xl bg-[#ffffff]">
-          <img src={Assets} alt="" width={87} />
+        <div className="emoji-svg  ml-2 rounded-full shadow-xl bg-[#ffffff]">
+          <img src="https://cdn.joypixels.com/products/previews/O6D7BMG8R2DMMNC4LLZH/2304_q4MLtmc7BVILKnAWzHaf9RcRSZhkNNzi.gif" alt="" width={100} />
         </div>
       </div>
       {/* line 2 */}
@@ -64,7 +64,7 @@ function Hero() {
       {/* line 3 */}
       <div className="line-3 flex items-center justify-center">
         <div class="w-28 gradient-purle-pink-circle h-28 bg-gradient-to-l from-[#7955f2] to-[#dd7c9c] flex items-center justify-center rounded-full"></div>
-        <div className="glashmorpishm-2-circle-z-index-1 py-2 flex items-center px-1 -ml-24 justify-start">
+        <div className="glashmorpishm-2-circle-z-index-1 py-2 flex items-center px-1 -ml-24 justify-start hover:justify-end duration-300">
           <div className="ClassName p-4 px-5 flex items-center bg-white rounded-full">
             <Infinity></Infinity>
           </div>
