@@ -7,6 +7,10 @@ import Line2 from "./icons/Line2.jsx";
 import CircleGreen from "./icons/GreenCircle.jsx";
 import SmallCircle from "./icons/SmallCircle.jsx";
 import Infinity from "./icons/infinity.jsx";
+import GreenStar from "./icons/GreenStar.jsx";
+import YellowStar from "./icons/YellowStar.jsx";
+import BlueStar from "./icons/BlueStar.jsx";
+import SkyStar from "./icons/SkyStar.jsx";
 // CSS
 import "./style/Hero.css";
 
@@ -67,8 +71,40 @@ function Hero() {
         </div>
       </div>
 
-      <div className="description-and-button mt-14">
-        <p className="xl:w-1/3 mx-auto text-center font-medium leading-7 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore blanditiis corrupti veniam quibusdam non. Assumenda? 🙌</p>
+      <div>
+        <div className="description-and-button flex justify-center w-[800px] mx-auto items-center mt-16">
+          <div className="star-svg -mt-20">
+            <GreenStar></GreenStar>
+          </div>
+          <p className="xl:w-1/2 mx-auto text-center font-medium leading-7 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore blanditiis corrupti veniam quibusdam non. Assumenda? 🙌</p>
+          <div className="star-svg">
+            <YellowStar></YellowStar>
+          </div>
+        </div>
+        <div className="flex justify-center mt-10">
+          <button className="button py-4 hover:scale-95 duration-300 rounded-full px-6  text-center bg-[#1c1e28] ">
+            <a className="text-gray-100 text-[13px] tracking-wide font-semibold" href="#">
+              Try it for free
+            </a>
+          </button>
+        </div>
+        <div className="flex justify-center mt-4">
+          <button className="hover:scale-95 duration-300">
+            <a className="text-gray-800 font-semibold hover:underline duration-300" href="#">
+              See how it work
+            </a>
+          </button>
+        </div>
+      </div>
+      <div className="star-svg">
+        <div className="flex justify-around">
+          <div className="-mt-10">
+            <BlueStar></BlueStar>
+          </div>
+          <div className="-mt-16">
+            <SkyStar></SkyStar>
+          </div>
+        </div>
       </div>
     </>
   );
