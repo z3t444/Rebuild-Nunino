@@ -68,7 +68,7 @@ function Hero() {
       </div>
 
       <div className="description-and-button mt-14">
-        <p className="xl:w-1/3 mx-auto text-center font-medium leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore blanditiis corrupti veniam quibusdam non. Assumenda? 🙌</p>
+        <p className="xl:w-1/3 mx-auto text-center font-medium leading-7 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore blanditiis corrupti veniam quibusdam non. Assumenda? 🙌</p>
       </div>
     </>
   );
