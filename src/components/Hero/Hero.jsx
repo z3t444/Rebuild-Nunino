@@ -11,6 +11,10 @@ import GreenStar from "./icons/GreenStar.jsx";
 import YellowStar from "./icons/YellowStar.jsx";
 import BlueStar from "./icons/BlueStar.jsx";
 import SkyStar from "./icons/SkyStar.jsx";
+import Adobe from "./trusted/Adobe.jsx";
+import Amazon from "./trusted/Amazon.jsx";
+import Facebook from "./trusted/Facebook.jsx";
+import Tesla from "./trusted/Tesla.jsx";
 // CSS
 import "./style/Hero.css";
 
@@ -88,9 +92,9 @@ function Hero() {
             </a>
           </button>
         </div>
-        <div className="flex justify-center mt-4">
+        <div className="flex justify-center mt-3">
           <button className="hover:scale-95 duration-300">
-            <a className="text-gray-800 font-semibold hover:underline duration-300" href="#">
+            <a className="text-gray-800 text-sm font-semibold hover:underline duration-300" href="#">
               See how it work
             </a>
           </button>
@@ -105,6 +109,14 @@ function Hero() {
             <SkyStar></SkyStar>
           </div>
         </div>
+      </div>
+
+      {/* trused icons Company */}
+      <div className="company-assets justify-center gap-16 mt-20 flex items-center">
+        <Adobe></Adobe>
+        <Amazon></Amazon>
+        <Facebook></Facebook>
+        <Tesla></Tesla>
       </div>
     </>
   );
