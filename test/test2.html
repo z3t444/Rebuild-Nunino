@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width='device-width', initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+        * {
+    	 box-sizing: border-box;
+    }
+     :root {
+    	 font-size: 7.5px;
+    }
+
+     input[type="checkbox"] {
+    	 height: 0;
+    	 width: 0;
+    	 visibility: hidden;
+    }
+     label {
+    	 cursor: pointer;
+    	 text-indent: -9999px;
+    	 width: 48.25em;
+    	 height: 24.125em;
+    	 display: block;
+    	 border-radius: 24.125em;
+    	 position: relative;
+    	 background: #c8c1dd;
+    	 box-shadow: inset -6.5em 6.5em 1.5em -3em #6863ae, inset 1.5em -1.5em 2.5em #e6defe, -1em 1em 0.5em 0 #ccc7e4, -0.4em 0.2em 1em 0 #aaa4d5, 0.4em -0.2em 1em 0 #726ca4;
+    }
+     label:after {
+    	 content: "";
+    	 position: absolute;
+    	 top: 0.4375em;
+    	 left: 0.4375em;
+    	 width: 23.25em;
+    	 height: 23.25em;
+    	 background: #000;
+    	 border-radius: 100%;
+    	 transition: 1s cubic-bezier(0.25, 1, 0.5, 1);
+    	 background-image: url(https://www.sharetextures.com/wp-content/uploads/2018/09/PBR-concrete_white-ao-.jpg);
+    	 background-size: 150%;
+    	 background-position: 50% 50%;
+    	 filter: drop-shadow(-1em 1em 0.5em #6863ae);
+    }
+     label:before {
+    	 z-index: 1;
+    	 content: "";
+    	 position: absolute;
+    	 top: 0.4375em;
+    	 left: 0.4375em;
+    	 width: 23.25em;
+    	 height: 23.25em;
+    	 border-radius: 100%;
+    	 transition: 1s cubic-bezier(0.25, 1, 0.5, 1);
+    	 background: radial-gradient(circle at 70% 35%, #ddd 2 20%, #000 d);
+    	 filter: blur(1em);
+    }
+     input:checked + label:after, input:checked + label:before {
+    	 left: calc(100% - 0.4375em);
+    	 transform: translateX(-100%);
+    }
+     input:checked + label:after {
+    	 background-position: -100% 50%;
+    	 filter: drop-shadow(-5em 1.5em 0.5em #6863ae);
+    }
+  </style>
+  <body>
+    <input type="checkbox" id="switch" /><label for="switch"></label>
+  </body>
+</html>
