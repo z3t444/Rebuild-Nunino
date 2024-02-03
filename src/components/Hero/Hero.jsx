@@ -42,7 +42,7 @@ function Hero() {
           </div>
         </div>
         <div className="glashmorpishm p-7 bg-transparent rounded-full -ml-10">
-          <Line></Line>
+          <Line></Line>        
         </div>
         <div>
           <h3 className="text-8xl font-bold -ml-6 tracking-tight">a team</h3>
